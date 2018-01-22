@@ -37,8 +37,8 @@ void insert(int value) // creating a function in class linkedlist to insert a va
     
 {
       
-node *temp=new node; // creating a new node
- temp      
+node *temp=new node; // creating a new node temp  
+	
 temp->data=value; // assigning value to data in temp node
       
 temp->next=NULL;
