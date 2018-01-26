@@ -50,8 +50,6 @@ if(head==NULL)
 head=temp;
         
 tail=temp;
-        
-temp=NULL;
       
 }
       
@@ -256,7 +254,7 @@ cout<<"Enter number and position to be inserted";
 	
 cin>>d>>p;
 	
-a.insertAt(d,p);
+a.insertAt(p,d);
 	
 a.display();
 	
@@ -282,7 +280,7 @@ cout<<"Enter a number and position to be inserted";
 	
 cin>>f>>g;
 	
-a.insertAt(f,g);
+a.insertAt(g,f);
 	
 a.display();
 	
